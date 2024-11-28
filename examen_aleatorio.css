@@ -6,12 +6,15 @@ body{
 }
 .cont{
     z-index: 0;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
 }
 .cont1{
     padding: 20px 30px;
     margin-top: 30px;
-    margin-left: 20%;
-    width: 60%;
+    margin-left: 10%;
+    width: 80%;
     background-color: rgb(193, 202, 209);
 }
 
@@ -44,7 +47,7 @@ body{
 .wordart {
     display: inline-block;
     padding: 0px;
-    margin-left: 22%;
+    /* margin-left: 22%; */
     margin-top: -35px;
     margin-bottom: 2px;
     font-size: 35px;
