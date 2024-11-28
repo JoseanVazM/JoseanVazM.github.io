@@ -31,7 +31,7 @@ body{
     width: 200px;
     height: 40px;
     font-family:Verdana,Helvetica;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight:bold;
     color:white;
     border: none; /* border: 0.5px solid black; */
@@ -50,7 +50,7 @@ body{
     /* margin-left: 22%; */
     margin-top: -35px;
     margin-bottom: 2px;
-    font-size: 35px;
+    font-size: 2.188rem;
 }
 .style-fifteen {
     .wordart {
@@ -77,40 +77,41 @@ body{
 p{
     color: black;
     font-family:Verdana,Helvetica;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight:bold;
 }
 
 #correctas{
     color: red;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: -20px;
-    margin-left: 25%;
+    text-align: center;
 }
+
 .lbl{
     color: black;
     font-family:Verdana,Helvetica;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 .valid {
     color: green;
     font-family:Verdana,Helvetica;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: bold;
 }
 
 .invalid {
     color: red;
     font-family:Verdana,Helvetica;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: bold;
 }
 
 .check1{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     float: right;
     /* margin-left: 610px; */
     margin-top: -55px;
@@ -119,7 +120,7 @@ p{
 .check{
     margin-top: -2px;
     margin-left: 2px;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .check:before{
@@ -130,7 +131,7 @@ p{
 .checkOK{
     margin-top: -2px;
     margin-left: 2px;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .checkOK:before{
@@ -141,7 +142,7 @@ p{
 .checkNoK{
     margin-top: -2px;
     margin-left: 2px;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .checkNoK:before{
