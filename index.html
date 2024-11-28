@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJERCICIO31</title>
+
+    <link rel="stylesheet" href="./examen_aleatorio.css">
+
+    <script src="./preguntas.js"></script>
+    <script src="./examen_aleatorio.js"></script>
+
+</head>
+<body >
+    <div class="cont">
+        <section class="style-fifteen">
+            <div class="wordart">
+                <h1 class="preview" data-content="CodePen">Ejercicio examen celador aleatorio</h1>
+            </div>
+        </section>
+    </div>
+    <div class="cont1">
+        <div>
+            <button  class="btn" onclick="generar_examen()" id="generar">Generar Examen</button>
+        </div>
+        <div class="cont2">
+            <!-- Pregunta 1 -->
+            <div class="question1" id="preg1">
+                <p id="pregunta1"></p>
+            </div>
+            <div class="rsp1" id="resp1">
+                <input type="radio" name="opt0" id="opt0_0" style="visibility: hidden;" onclick="guarda_resp(1,0)">
+                <label class="lbl" for="opt0_0" id="opt0_0_0" style="visibility: hidden;">Respuesta1</label><br>
+                <input type="radio" name="opt0" id="opt1_0" style="visibility: hidden;" onclick="guarda_resp(2,0)">
+                <label class="lbl" for="opt1_0" id="opt0_1_0" style="visibility: hidden;">Respuesta2</label><br>
+                <input type="radio" name="opt0" id="opt2_0" style="visibility: hidden;" onclick="guarda_resp(3,0)">
+                <label class="lbl" for="opt2_0" id="opt0_2_0" style="visibility: hidden;">Respuesta3</label><br>
+                <input type="radio" name="opt0" id="opt3_0" style="visibility: hidden;" onclick="guarda_resp(4,0)">
+                <label class="lbl" for="opt3_0" id="opt0_3_0" style="visibility: hidden;">Respuesta4</label><br>
+            </div>
+            <div class="check1">
+                <p class="check"></p>
+            </div>
+
+            <!-- Pregunta 2 -->
+            <div class="question1" id="preg2">
+                <p id="pregunta2"></p>
+            </div>
+            <div class="rsp1" id="resp2">
+                <input type="radio" name="opt1" id="opt0_1" style="visibility: hidden;" onclick="guarda_resp(1,1)">
+                <label class="lbl" for="opt0_1" id="opt1_0_1" style="visibility: hidden;">Respuesta1</label><br>
+                <input type="radio" name="opt1" id="opt1_1" style="visibility: hidden;" onclick="guarda_resp(2,1)">
+                <label class="lbl" for="opt1_1" id="opt1_1_1" style="visibility: hidden;">Respuesta2</label><br>
+                <input type="radio" name="opt1" id="opt2_1" style="visibility: hidden;" onclick="guarda_resp(3,1)">
+                <label class="lbl" for="opt2_1" id="opt1_2_1" style="visibility: hidden;">Respuesta3</label><br>
+                <input type="radio" name="opt1" id="opt3_1" style="visibility: hidden;" onclick="guarda_resp(4,1)">
+                <label class="lbl" for="opt3_1" id="opt1_3_1" style="visibility: hidden;">Respuesta4</label><br>
+            </div>
+            <div class="check1">
+                <p class="check"></p>
+            </div>
+
+            <!-- Pregunta 3 -->
+            <div class="question1" id="preg3">
+                <p id="pregunta3"></p>
+            </div>
+            <div class="rsp1" id="resp3">
+                <input type="radio" name="opt2" id="opt0_2" style="visibility: hidden;" onclick="guarda_resp(1,2)">
+                <label class="lbl" for="opt0_2" id="opt2_0_2" style="visibility: hidden;">Respuesta1</label><br>
+                <input type="radio" name="opt2" id="opt1_2" style="visibility: hidden;" onclick="guarda_resp(2,2)">
+                <label class="lbl" for="opt1_2" id="opt2_1_2" style="visibility: hidden;">Respuesta2</label><br>
+                <input type="radio" name="opt2" id="opt2_2" style="visibility: hidden;" onclick="guarda_resp(3,2)">
+                <label class="lbl" for="opt2_2" id="opt2_2_2" style="visibility: hidden;">Respuesta3</label><br>
+                <input type="radio" name="opt2" id="opt3_2" style="visibility: hidden;" onclick="guarda_resp(4,2)">
+                <label class="lbl" for="opt3_2" id="opt2_3_2" style="visibility: hidden;">Respuesta4</label><br>
+            </div>
+            <div class="check1">
+                <p class="check"></p>
+            </div>
+
+            <!-- Pregunta 4 -->
+            <div class="question1" id="preg4">
+                <p id="pregunta4"></p>
+            </div>
+            <div class="rsp1" id="resp4">
+                <input type="radio" name="opt3" id="opt0_3" style="visibility: hidden;" onclick="guarda_resp(1,3)">
+                <label class="lbl" for="opt0_3" id="opt3_0_3" style="visibility: hidden;">Respuesta1</label><br>
+                <input type="radio" name="opt3" id="opt1_3" style="visibility: hidden;" onclick="guarda_resp(2,3)">
+                <label class="lbl" for="opt1_3" id="opt3_1_3" style="visibility: hidden;">Respuesta2</label><br>
+                <input type="radio" name="opt3" id="opt2_3" style="visibility: hidden;" onclick="guarda_resp(3,3)">
+                <label class="lbl" for="opt2_3" id="opt3_2_3" style="visibility: hidden;">Respuesta3</label><br>
+                <input type="radio" name="opt3" id="opt3_3" style="visibility: hidden;" onclick="guarda_resp(4,3)">
+                <label class="lbl" for="opt3_3" id="opt3_3_3" style="visibility: hidden;">Respuesta4</label><br>
+            </div>
+            <div class="check1">
+                <p class="check"></p>
+            </div>
+
+            <!-- Pregunta 5 -->
+            <div class="question1" id="preg5">
+                <p id="pregunta5"></p>
+            </div>
+            <div class="rsp1" id="resp5">
+                <input type="radio" name="opt4" id="opt0_4" style="visibility: hidden;" onclick="guarda_resp(1,4)">
+                <label class="lbl" for="opt0_4" id="opt4_0_4" style="visibility: hidden;">Respuesta1</label><br>
+                <input type="radio" name="opt4" id="opt1_4" style="visibility: hidden;" onclick="guarda_resp(2,4)">
+                <label class="lbl" for="opt1_4" id="opt4_1_4" style="visibility: hidden;">Respuesta2</label><br>
+                <input type="radio" name="opt4" id="opt2_4" style="visibility: hidden;" onclick="guarda_resp(3,4)">
+                <label class="lbl" for="opt2_4" id="opt4_2_4" style="visibility: hidden;">Respuesta3</label><br>
+                <input type="radio" name="opt4" id="opt3_4" style="visibility: hidden;" onclick="guarda_resp(4,4)">
+                <label class="lbl" for="opt3_4" id="opt4_3_4" style="visibility: hidden;">Respuesta4</label><br>
+            </div>
+            <div class="check1">
+                <p class="check"></p>
+            </div>
+
+            <!-- Pregunta 6 -->
+            <div class="question1" id="preg6">
+                <p id="pregunta6"></p>
+            </div>
+            <div class="rsp1" id="resp6">
+                <input type="radio" name="opt5" id="opt0_5" style="visibility: hidden;" onclick="guarda_resp(1,5)">
+                <label class="lbl" for="opt0_5" id="opt5_0_5" style="visibility: hidden;">Respuesta1</label><br>
+                <input type="radio" name="opt5" id="opt1_5" style="visibility: hidden;" onclick="guarda_resp(2,5)">
+                <label class="lbl" for="opt1_5" id="opt5_1_5" style="visibility: hidden;">Respuesta2</label><br>
+                <input type="radio" name="opt5" id="opt2_5" style="visibility: hidden;" onclick="guarda_resp(3,5)">
+                <label class="lbl" for="opt2_5" id="opt5_2_5" style="visibility: hidden;">Respuesta3</label><br>
+                <input type="radio" name="opt5" id="opt3_5" style="visibility: hidden;" onclick="guarda_resp(4,5)">
+                <label class="lbl" for="opt3_5" id="opt5_3_5" style="visibility: hidden;">Respuesta4</label><br>
+            </div>
+            <div class="check1">
+                <p class="check"></p>
+            </div>
+
+            <!-- Pregunta 7 -->
+            <div class="question1" id="preg7">
+                <p id="pregunta7"></p>
+            </div>
+            <div class="rsp1" id="resp7">
+                <input type="radio" name="opt6" id="opt0_6" style="visibility: hidden;" onclick="guarda_resp(1,6)">
+                <label class="lbl" for="opt0_6" id="opt6_0_6" style="visibility: hidden;">Respuesta1</label><br>
+                <input type="radio" name="opt6" id="opt1_6" style="visibility: hidden;" onclick="guarda_resp(2,6)">
+                <label class="lbl" for="opt1_6" id="opt6_1_6" style="visibility: hidden;">Respuesta2</label><br>
+                <input type="radio" name="opt6" id="opt2_6" style="visibility: hidden;" onclick="guarda_resp(3,6)">
+                <label class="lbl" for="opt2_6" id="opt6_2_6" style="visibility: hidden;">Respuesta3</label><br>
+                <input type="radio" name="opt6" id="opt3_6" style="visibility: hidden;" onclick="guarda_resp(4,6)">
+                <label class="lbl" for="opt3_6" id="opt6_3_6" style="visibility: hidden;">Respuesta4</label><br>
+            </div>
+            <div class="check1">
+                <p class="check"></p>
+            </div>
+
+            <!-- Pregunta 8 -->
+            <div class="question1" id="preg8">
+                <p id="pregunta8"></p>
+            </div>
+            <div class="rsp1" id="resp8">
+                <input type="radio" name="opt7" id="opt0_7" style="visibility: hidden;" onclick="guarda_resp(1,7)">
+                <label class="lbl" for="opt0_7" id="opt7_0_7" style="visibility: hidden;">Respuesta1</label><br>
+                <input type="radio" name="opt7" id="opt1_7" style="visibility: hidden;" onclick="guarda_resp(2,7)">
+                <label class="lbl" for="opt1_7" id="opt7_1_7" style="visibility: hidden;">Respuesta2</label><br>
+                <input type="radio" name="opt7" id="opt2_7" style="visibility: hidden;" onclick="guarda_resp(3,7)">
+                <label class="lbl" for="opt2_7" id="opt7_2_7" style="visibility: hidden;">Respuesta3</label><br>
+                <input type="radio" name="opt7" id="opt3_7" style="visibility: hidden;" onclick="guarda_resp(4,7)">
+                <label class="lbl" for="opt3_7" id="opt7_3_7" style="visibility: hidden;">Respuesta4</label><br>
+            </div>
+            <div class="check1">
+                <p class="check"></p>
+            </div>
+
+            <!-- Pregunta 9 -->
+            <div class="question1" id="preg9">
+                <p id="pregunta9"></p>
+            </div>
+            <div class="rsp1" id="resp9">
+                <input type="radio" name="opt8" id="opt0_8" style="visibility: hidden;" onclick="guarda_resp(1,8)">
+                <label class="lbl" for="opt0_8" id="opt8_0_8" style="visibility: hidden;">Respuesta1</label><br>
+                <input type="radio" name="opt8" id="opt1_8" style="visibility: hidden;" onclick="guarda_resp(2,8)">
+                <label class="lbl" for="opt1_8" id="opt8_1_8" style="visibility: hidden;">Respuesta2</label><br>
+                <input type="radio" name="opt8" id="opt2_8" style="visibility: hidden;" onclick="guarda_resp(3,8)">
+                <label class="lbl" for="opt2_8" id="opt8_2_8" style="visibility: hidden;">Respuesta3</label><br>
+                <input type="radio" name="opt8" id="opt3_8" style="visibility: hidden;" onclick="guarda_resp(4,8)">
+                <label class="lbl" for="opt3_8" id="opt8_3_8" style="visibility: hidden;">Respuesta4</label><br>
+            </div>
+            <div class="check1">
+                <p class="check"></p>
+            </div>
+
+            <!-- Pregunta 10 -->
+            <div class="question1" id="preg10">
+                <p id="pregunta10"></p>
+            </div>
+            <div class="rsp1" id="resp10">
+                <input type="radio" name="opt9" id="opt0_9" style="visibility: hidden;" onclick="guarda_resp(1,9)">
+                <label class="lbl" for="opt0_9" id="opt9_0_9" style="visibility: hidden;">Respuesta1</label><br>
+                <input type="radio" name="opt9" id="opt1_9" style="visibility: hidden;" onclick="guarda_resp(2,9)">
+                <label class="lbl" for="opt1_9" id="opt9_1_9" style="visibility: hidden;">Respuesta2</label><br>
+                <input type="radio" name="opt9" id="opt2_9" style="visibility: hidden;" onclick="guarda_resp(3,9)">
+                <label class="lbl" for="opt2_9" id="opt9_2_9" style="visibility: hidden;">Respuesta3</label><br>
+                <input type="radio" name="opt9" id="opt3_9" style="visibility: hidden;" onclick="guarda_resp(4,9)">
+                <label class="lbl" for="opt3_9" id="opt9_3_9" style="visibility: hidden;">Respuesta4</label><br>
+            </div>
+            <div class="check1">
+                <p class="check"></p>
+            </div>
+
+        <div>
+            <button class="btn" onclick="comprobar()" id="comprueba" style="visibility: hidden;">Comprobar respuestas</button>
+            <p id="correctas"></p>
+        </div>
+    </div>
+
+</body>
+</html>
