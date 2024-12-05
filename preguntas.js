@@ -703,7 +703,7 @@
             resp_inco3: "Cerrar las puertas de todas las habitaciones de aislamiento"
         },
         {
-            pregunta: "Llevar mascarilla quirúrgica siempre que se entre en la habitación",
+            pregunta: "En el protocolo de aislamiento de contacto, ¿qué medida es incorrecta?",
             resp_correcta: "Llevar mascarilla quirúrgica siempre que se entre en la habitación",
             resp_inco1: "Retirar los guantes inmediatamente después de salir de la habitación",
             resp_inco2: "Usar guantes al entrar en la habitación",
