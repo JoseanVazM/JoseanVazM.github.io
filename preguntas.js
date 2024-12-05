@@ -697,17 +697,17 @@
         },
         {
             pregunta: "En el protocolo de aislamiento de contacto, ¿qué medida es incorrecta?",
-            resp_correcta: "Lavar las manos antes y después del contacto con cada paciente",
-            resp_inco1: "Reutilizar guantes y mascarillas siempre que sea posible",
-            resp_inco2: "Evitar el contacto directo con pacientes infecciosos",
-            resp_inco3: "Cerrar las puertas de todas las habitaciones de aislamiento"
-        },
-        {
-            pregunta: "En el protocolo de aislamiento de contacto, ¿qué medida es incorrecta?",
             resp_correcta: "Llevar mascarilla quirúrgica siempre que se entre en la habitación",
             resp_inco1: "Retirar los guantes inmediatamente después de salir de la habitación",
             resp_inco2: "Usar guantes al entrar en la habitación",
             resp_inco3: "Evitar compartir equipos entre pacientes"
+        },
+        {
+            pregunta: "¿Qué es la anafilaxia?",
+            resp_correcta: "Una reacción alérgica grave que puede comprometer la vida",
+            resp_inco1: "Una infección bacteriana del torrente sanguíneo",
+            resp_inco2: "Una enfermedad viral que afecta al sistema inmunológico",
+            resp_inco3: "Una inflamación crónica de las vías respiratorias"
         }
     ];
     
