@@ -617,6 +617,97 @@
             resp_inco1: "La asistencia sanitaria necesaria",
             resp_inco2: "El apoyo psicológico necesario",
             resp_inco3: "El asesoramiento legal necesario"
+        },
+        {
+            pregunta: "¿Qué equipo es imprescindible al atender un paciente en aislamiento estricto?",
+            resp_correcta: "Todo el equipo de protección individual (EPI)",
+            resp_inco1: "Guantes y bata",
+            resp_inco2: "Mascarilla y gafas de protección",
+            resp_inco3: "Solo guantes desechables"
+        },
+        {
+            pregunta: "¿Cuál es el objetivo de la Ley Foral 7/2019?",
+            resp_correcta: "Todas son correctas",
+            resp_inco1: "Garantizar la igualdad de oportunidades",
+            resp_inco2: "Establecer criterios en la contratación pública",
+            resp_inco3: "Promover la conciliación de la vida personal y laboral"
+        },
+        {
+            pregunta: "¿Qué tipo de fracturas se denominan fracturas conminutas?",
+            resp_correcta: "Aquellas en las que el hueso se rompe en diversos fragmentos",
+            resp_inco1: "Aquellas que presentan una línea de fractura oblicua",
+            resp_inco2: "Aquellas que presentan una rotura en espiral",
+            resp_inco3: "Aquellas que afectan a huesos jóvenes con aspecto de tallo verde"
+        },
+        {
+            pregunta: "En la posición de litotomía, ¿cómo se encuentra el paciente?",
+            resp_correcta: "En decúbito supino",
+            resp_inco1: "Semi-sentado",
+            resp_inco2: "De rodillas",
+            resp_inco3: "En decúbito lateral"
+        },
+        {
+            pregunta: "¿Qué acción debe realizar un celador si un paciente solicita agua en Urgencias?",
+            resp_correcta: "Ponerlo en conocimiento del personal de enfermería",
+            resp_inco1: "Ignorar la solicitud del paciente",
+            resp_inco2: "Entregarle agua inmediatamente",
+            resp_inco3: "Negarse porque no es su responsabilidad"
+        },
+        {
+            pregunta: "¿Cuál es la postura correcta para levantar cargas según las normas de seguridad?",
+            resp_correcta: "Con la espalda recta y usando las piernas",
+            resp_inco1: "Flexionando la espalda hacia adelante",
+            resp_inco2: "Con los brazos extendidos",
+            resp_inco3: "De pie y girando el tronco"
+        },
+        {
+            pregunta: "En el protocolo de traslado de cadáveres, ¿qué es prioritario?",
+            resp_correcta: "Usar un circuito específico para cadáveres",
+            resp_inco1: "Asegurar que las joyas permanezcan en el cuerpo",
+            resp_inco2: "Cubrir el cadáver con una sábana limpia",
+            resp_inco3: "Informar a los familiares antes del traslado"
+        },
+        {
+            pregunta: "¿Qué equipo es imprescindible al realizar una contención mecánica?",
+            resp_correcta: "Correas de contención aprobadas",
+            resp_inco1: "Material de inmovilización improvisado",
+            resp_inco2: "Ninguno, depende de la situación",
+            resp_inco3: "Sábanas adicionales"
+        },
+        {
+            pregunta: "En caso de accidente biológico, ¿qué debe hacer el celador inmediatamente?",
+            resp_correcta: "Todas son correctas",
+            resp_inco1: "Informar al supervisor y seguir el protocolo establecido",
+            resp_inco2: "Lavar la zona afectada con abundante agua y jabón",
+            resp_inco3: "Contactar con el servicio de prevención de riesgos laborales"
+        },
+        {
+            pregunta: "¿Qué término describe la incapacidad del cuerpo para mantener la temperatura corporal?",
+            resp_correcta: "Hipotermia",
+            resp_inco1: "Hipertermia",
+            resp_inco2: "Pirexia",
+            resp_inco3: "Afasia"
+        },
+        {
+            pregunta: "¿Qué medida es importante para prevenir infecciones cruzadas en un hospital?",
+            resp_correcta: "Lavar las manos antes y después del contacto con cada paciente",
+            resp_inco1: "Reutilizar guantes y mascarillas siempre que sea posible",
+            resp_inco2: "Evitar el contacto directo con pacientes infecciosos",
+            resp_inco3: "Cerrar las puertas de todas las habitaciones de aislamiento"
+        },
+        {
+            pregunta: "En el protocolo de aislamiento de contacto, ¿qué medida es incorrecta?",
+            resp_correcta: "Lavar las manos antes y después del contacto con cada paciente",
+            resp_inco1: "Reutilizar guantes y mascarillas siempre que sea posible",
+            resp_inco2: "Evitar el contacto directo con pacientes infecciosos",
+            resp_inco3: "Cerrar las puertas de todas las habitaciones de aislamiento"
+        },
+        {
+            pregunta: "Llevar mascarilla quirúrgica siempre que se entre en la habitación",
+            resp_correcta: "Llevar mascarilla quirúrgica siempre que se entre en la habitación",
+            resp_inco1: "Retirar los guantes inmediatamente después de salir de la habitación",
+            resp_inco2: "Usar guantes al entrar en la habitación",
+            resp_inco3: "Evitar compartir equipos entre pacientes"
         }
     ];
     
