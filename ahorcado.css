@@ -1,0 +1,33 @@
+.titulo{
+    color: rgb(202, 64, 0);
+    font-size: 50px;
+    font-weight: bold;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub_contenedor{
+    display: flexbox;
+    text-align: center;
+    min-width: 540px;
+}
+.sub_contenedor1{
+    display: flexbox;
+    min-width: 540px;
+    text-align: center;
+}
+img{
+    width: 332px;
+    height: 320px;
+}
+.acierto{
+    color: rgb(253, 0, 51);
+    font-size: 35px;
+    font-weight: bold;
+}
+.palabra{
+    color: black;
+    font-size: 25px;
+}
