@@ -12,6 +12,7 @@
         function iniciar() { 
             genera_palabra();
             reiniciar_botones(false);
+            document.getElementById("iniciar").style.backgroundColor = "#00ffb3";
         }
 
         // Función para escoger la palabra (y la pista) y generar los _ en las letras a adivinar
@@ -65,6 +66,10 @@
         function comprobar(letra_pulsada) { 
             let letra ="";
             const posicion = [];
+
+            if (document.getElementById("iniciar").style.backgroundColor == "rgb(0, 255, 179)") {
+                document.getElementById("iniciar").style.backgroundColor = "rgb(255, 255, 0)";
+            }
 
             // Desabilito el botón pulsado
             document.getElementById(letra_pulsada.id).disabled = true;
@@ -143,9 +148,13 @@
             if (completa){
                 document.getElementById("intentos").innerHTML = "Congratulations, the word was: <br>" + palabras[sel_palabra].palabra;
                 document.getElementById("intentos").className = "acierto";
+                document.getElementById("iniciar").style.backgroundColor = "#00ffb3";
                 reiniciar_botones(true);
             }
 
+            if (intentos==1) {
+                document.getElementById("iniciar").style.backgroundColor = "rgb(255, 0, 0)";
+            }
 
             // Si los intentos llegan a 0, muestro en pantalla que has fallado y la palabra que era, desabilito todos los botones con letra.
             if (intentos==0) {
