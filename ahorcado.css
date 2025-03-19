@@ -1,33 +1,81 @@
-.titulo{
+.titulo {
     color: rgb(202, 64, 0);
-    font-size: 50px;
+    font-size: 3em; /* Escala relativa */
     font-weight: bold;
+    text-align: center; /* Alineación central para una mejor adaptación */
 }
-.contenedor{
+.contenedor {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap; /* Permite flexibilidad en pantallas pequeñas */
 }
-.sub_contenedor{
-    display: flexbox;
+.sub_contenedor_img{
+    display: flex;
     text-align: center;
-    min-width: 540px;
+    min-width: 50%;
+    max-height: 400px;
 }
-.sub_contenedor1{
-    display: flexbox;
-    min-width: 540px;
+.sub_contenedor1, .sub_contenedor{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    min-width: 45%; /* Cambia a porcentaje para mayor flexibilidad */
 }
-img{
-    width: 332px;
-    height: 320px;
+img {
+    max-width: 100%; /* Se adapta al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
-.acierto{
+.acierto {
     color: rgb(253, 0, 51);
-    font-size: 35px;
+    font-size: 2em;
     font-weight: bold;
 }
-.palabra{
+.palabra {
     color: black;
-    font-size: 25px;
+    font-size: 1.5em;
 }
+.letra, .pista {
+    padding: 0.5em 0.8em; /* Escalado relativo */
+    margin: 0.5em; /* Espacio entre elementos */
+    font-size: 1em; /* Escala flexible */
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    flex: 0 0 auto;
+    width: auto;
+    text-align: center;
+}
+.letra:disabled {
+    background-color: #ccc;
+}
+
+/* Medias queries para ajustes en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 2em; /* Reduce el tamaño en pantallas medianas */
+    }
+    .sub_contenedor, .sub_contenedor1 {
+        min-width: 100%; /* Ocupa todo el ancho en pantallas pequeñas */
+    }
+    img {
+        width: 80%; /* Reduce el tamaño de la imagen en pantallas pequeñas */
+    }
+    .acierto {
+        font-size: 1.5em;
+    }
+    .palabra {
+        font-size: 1.2em;
+    }
+}
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 1.5em; /* Ajuste adicional para dispositivos muy pequeños */
+    }
+    .letra, .pista {
+        font-size: 0.9em; /* Tamaño más compacto */
+    }
+}
+
