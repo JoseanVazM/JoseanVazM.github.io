@@ -27,7 +27,7 @@
             <p id="palabra" class="palabra">palabra a adivinar</p>
         </div>
         
-        <div class="sub_contenedor">
+        <div class="sub_contenedor_img">
             <img src="img/ahorcado_11.png" alt="" id="imagen">
         </div>
     </div>
@@ -43,38 +43,38 @@
     </div>
 
     <div class="contenedor">
-        <div class="sub_contenedor1">
-            <button onclick="comprobar(this)" id="A">A</button>
-            <button onclick="comprobar(this)" id="B">B</button>
-            <button onclick="comprobar(this)" id="C">C</button>
-            <button onclick="comprobar(this)" id="D">D</button>
-            <button onclick="comprobar(this)" id="E">E</button>
-            <button onclick="comprobar(this)" id="F">F</button>
-            <button onclick="comprobar(this)" id="G">G</button>
-            <button onclick="comprobar(this)" id="H">H</button>
-            <button onclick="comprobar(this)" id="I">I</button>
-            <button onclick="comprobar(this)" id="J">J</button>
-            <button onclick="comprobar(this)" id="K">K</button>
-            <button onclick="comprobar(this)" id="L">L</button>
-            <button onclick="comprobar(this)" id="M">M</button>
-            <button onclick="comprobar(this)" id="N">N</button><br>
-            <!-- <button onclick="comprobar(this)" id="N2">Ñ</button> -->
-            <button onclick="comprobar(this)" id="O">O</button>
-            <button onclick="comprobar(this)" id="P">P</button>
-            <button onclick="comprobar(this)" id="Q">Q</button>
-            <button onclick="comprobar(this)" id="R">R</button>
-            <button onclick="comprobar(this)" id="S">S</button>
-            <button onclick="comprobar(this)" id="T">T</button>
-            <button onclick="comprobar(this)" id="U">U</button>
-            <button onclick="comprobar(this)" id="V">V</button>
-            <button onclick="comprobar(this)" id="W">W</button>
-            <button onclick="comprobar(this)" id="X">X</button>
-            <button onclick="comprobar(this)" id="Y">Y</button>
-            <button onclick="comprobar(this)" id="Z">Z</button>
+        <div class="contenedor_botones">
+            <button class="letra" onclick="comprobar(this)" id="A">A</button>
+            <button class="letra" onclick="comprobar(this)" id="B">B</button>
+            <button class="letra" onclick="comprobar(this)" id="C">C</button>
+            <button class="letra" onclick="comprobar(this)" id="D">D</button>
+            <button class="letra" onclick="comprobar(this)" id="E">E</button>
+            <button class="letra" onclick="comprobar(this)" id="F">F</button>
+            <button class="letra" onclick="comprobar(this)" id="G">G</button>
+            <button class="letra" onclick="comprobar(this)" id="H">H</button>
+            <button class="letra" onclick="comprobar(this)" id="I">I</button>
+            <button class="letra" onclick="comprobar(this)" id="J">J</button>
+            <button class="letra" onclick="comprobar(this)" id="K">K</button>
+            <button class="letra" onclick="comprobar(this)" id="L">L</button>
+            <button class="letra" onclick="comprobar(this)" id="M">M</button>
+            <button class="letra" onclick="comprobar(this)" id="N">N</button><br>
+            <!-- <button class="letra" onclick="comprobar(this)" id="N2">Ñ</button> -->
+            <button class="letra" onclick="comprobar(this)" id="O">O</button>
+            <button class="letra" onclick="comprobar(this)" id="P">P</button>
+            <button class="letra" onclick="comprobar(this)" id="Q">Q</button>
+            <button class="letra" onclick="comprobar(this)" id="R">R</button>
+            <button class="letra" onclick="comprobar(this)" id="S">S</button>
+            <button class="letra" onclick="comprobar(this)" id="T">T</button>
+            <button class="letra" onclick="comprobar(this)" id="U">U</button>
+            <button class="letra" onclick="comprobar(this)" id="V">V</button>
+            <button class="letra" onclick="comprobar(this)" id="W">W</button>
+            <button class="letra" onclick="comprobar(this)" id="X">X</button>
+            <button class="letra" onclick="comprobar(this)" id="Y">Y</button>
+            <button class="letra" onclick="comprobar(this)" id="Z">Z</button>
         </div>
 
         <div class="sub_contenedor">
-            <button id="iniciar" onclick="iniciar()">Choose another word</button><br>
+            <button class="pista" id="iniciar" onclick="iniciar()">Choose another word</button><br>
         </div>
     </div>
 
@@ -94,11 +94,11 @@
                 if(!document.getElementById(keyValue.toUpperCase()).disabled){
                     comprobar(document.getElementById(keyValue.toUpperCase()));
                 }
-            }else if(keyValue=="ñ" || keyValue=="Ñ"){
+            }/* else if(keyValue=="ñ" || keyValue=="Ñ"){
                 if(!document.getElementById('N2').disabled){
                     comprobar(document.getElementById('N2'));
                 }
-            } else if (charCode==13) {
+            }  */else if (charCode==13) {
                 iniciar()
             }
         }, false);
