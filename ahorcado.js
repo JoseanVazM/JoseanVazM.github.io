@@ -37,7 +37,7 @@
             // Obtener la palabra seleccionada y dividirla en un array de letras
             palabra_selec = palabras[sel_palabra].palabra.split("");
             
-            // Mostrar la cantidad de letras y la pista
+            // Mostrar la cantidad de letras y la pista 
             if (num_palabras>1) {
                 document.getElementById("acierto").innerHTML = `The word has: ${(palabra_selec.length-(num_palabras-1))} letters.`;
             }else{
