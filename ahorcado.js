@@ -67,7 +67,7 @@
             let letra ="";
             const posicion = [];
 
-            if (intentos>11 && document.getElementById("iniciar").style.backgroundColor == "rgb(0, 255, 179)") {
+            if (intentos<11 && document.getElementById("iniciar").style.backgroundColor == "rgb(0, 255, 179)") {
                 document.getElementById("iniciar").style.backgroundColor = "rgb(255, 255, 0)";
             }
 
