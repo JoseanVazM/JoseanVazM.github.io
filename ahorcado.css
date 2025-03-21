@@ -115,7 +115,7 @@ img {
 }
 .pista{
     font-size: 1.25em; /* Escala flexible */
-    height: 60px;
+    height: 60px; 
     color: black;
     font-weight: bold;
     background-color: #00ffb3;
