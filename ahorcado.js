@@ -39,9 +39,9 @@
             
             // Mostrar la cantidad de letras y la pista 
             if (num_palabras>1) {
-                document.getElementById("acierto").innerHTML = `The word has: ${(palabra_selec.length-(num_palabras-1))} letters.`;
+                document.getElementById("acierto").innerHTML = `<b>The word has:</b> ${(palabra_selec.length-(num_palabras-1))} letters.`;
             }else{
-                document.getElementById("acierto").innerHTML = `The word has: ${palabra_selec.length} letters.`;                
+                document.getElementById("acierto").innerHTML = `<b>The word has:</b> ${palabra_selec.length} letters.`;                
             }
             document.getElementById("pista").innerHTML = `<b>Hint:</b><br>${palabras[sel_palabra].pista}`;
             
