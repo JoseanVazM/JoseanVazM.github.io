@@ -43,7 +43,7 @@
             }else{
                 document.getElementById("acierto").innerHTML = `The word has: ${palabra_selec.length} letters.`;                
             }
-            document.getElementById("pista").innerHTML = `Hint:<br>${palabras[sel_palabra].pista}`;
+            document.getElementById("pista").innerHTML = `<b>Hint:</b><br>${palabras[sel_palabra].pista}`;
             
             // Generar los espacios para cada letra o espacio
             let palabra_mostrada = palabra_selec.map(caracter => caracter === " " ? "&nbsp;&nbsp;" : "_ ").join("");
