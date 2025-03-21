@@ -67,10 +67,6 @@
             let letra ="";
             const posicion = [];
 
-            if (intentos<11 && document.getElementById("iniciar").style.backgroundColor == "rgb(0, 255, 179)") {
-                document.getElementById("iniciar").style.backgroundColor = "rgb(255, 255, 0)";
-            }
-
             // Desabilito el botón pulsado
             document.getElementById(letra_pulsada.id).disabled = true;
 
@@ -142,6 +138,10 @@
                 for (x in guiones2){ // muestro en pantalla las letras y guiones guardados en el array anteriormente
                     document.getElementById("palabra").innerHTML += guiones2[x];
                 }
+            }
+
+            if (intentos<11 && document.getElementById("iniciar").style.backgroundColor == "rgb(0, 255, 179)") {
+                document.getElementById("iniciar").style.backgroundColor = "rgb(255, 255, 0)";
             }
 
             // Compruebo si has adivinado todas las letras, saco el mensaje de Felicidades y desabilito los botones de letra.
