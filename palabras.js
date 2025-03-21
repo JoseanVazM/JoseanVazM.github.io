@@ -93,9 +93,6 @@ const palabras = [{
     palabra: "spaceship",
     pista: "A vehicle that astronauts use to travel in space"
 },{
-    palabra: "castle",
-    pista: "A big building where knights and queens lived"
-},{
     palabra: "lighthouse",
     pista: "A tall building that guides ships at night"
 },{
@@ -110,9 +107,6 @@ const palabras = [{
 },{
     palabra: "canyon",
     pista: "A deep valley with steep sides"
-},{
-    palabra: "volcano",
-    pista: "A mountain that erupts with lava"
 },{
     palabra: "jigsaw",
     pista: "A puzzle made of many small pieces"
@@ -135,21 +129,69 @@ const palabras = [{
     palabra: "telescope",
     pista: "A tool to look at stars and planets"
 },{
-    palabra: "pyramid",
-    pista: "A tall structure built in ancient times"
-},{
-    palabra: "compass",
-    pista: "It shows directions like north and south"
-},{
     palabra: "cave",
     pista: "A big hole or space in a mountain"
 },{
     palabra: "ocean",
     pista: "A huge body of salty water"
 },{
-    palabra: "bridge",
-    pista: "It helps people cross over water"
+    palabra: "kangaroo",
+    pista: "An animal from Australia that jumps with its strong legs"
 },{
-    palabra: "treasure",
-    pista: "Hidden valuable objects or gold"
+    palabra: "watermelon",
+    pista: "A big green fruit with red inside, perfect for summer"
+},{
+    palabra: "turtle",
+    pista: "An animal with a shell that moves slowly"
+},{
+    palabra: "airplane",
+    pista: "A flying vehicle you use to travel far and fast"
+},{
+    palabra: "violin",
+    pista: "A musical instrument that you play with a bow"
+},{
+    palabra: "whale",
+    pista: "The biggest animal in the ocean"
+},{
+    palabra: "popcorn",
+    pista: "A snack you eat at the movies, made from corn"
+},{
+    palabra: "starfish",
+    pista: "A sea creature that looks like a star"
+},{
+    palabra: "keyboard",
+    pista: "You use it to type on a computer"
+},{
+    palabra: "helicopter",
+    pista: "A flying vehicle with spinning blades on top"
+},{
+    palabra: "zebra",
+    pista: "An animal with black and white stripes"
+},{
+    palabra: "marble",
+    pista: "A small glass ball used for games"
+},{
+    palabra: "cloud",
+    pista: "It floats in the sky and can bring rain"
+},{
+    palabra: "banana",
+    pista: "A yellow fruit that monkeys love"
+},{
+    palabra: "pirate ship",
+    pista: "A vessel sailed by treasure seekers"
+},{
+    palabra: "crocodile",
+    pista: "A reptile with sharp teeth that lives in rivers"
+},{
+    palabra: "ladder",
+    pista: "You climb it to reach high places"
+},{
+    palabra: "glove",
+    pista: "It covers your hand to keep it warm"
+},{
+    palabra: "campfire",
+    pista: "A fire made outdoors for warmth or cooking"
+},{
+    palabra: "peacock",
+    pista: "A bird with colorful feathers like a fan"
 }];
