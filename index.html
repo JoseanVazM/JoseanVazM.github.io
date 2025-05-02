@@ -1,0 +1,703 @@
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+  <!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="AwesomeThemez">
+  <meta name="description" content="">
+  <!-- Page Title -->
+  <title>Peluquería Maria Cornago</title>
+  <!-- Favicon Icon -->
+  <link  id="favicon" rel="icon" href="./assets/img/favicon-dark.png" type="image/png">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/animate.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/owl.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/fontawesome.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/lightgallery.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  
+  <script>
+      document.addEventListener('contextmenu', function (e) {
+          e.preventDefault(); // Evita que se abra el menú contextual
+        });
+
+    function updateFavicon() {
+      const theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      const faviconURL = `./assets/img/favicon-${theme}.png?v=${new Date().getTime()}`;
+
+      const existingFavicon = document.getElementById('favicon');
+      if (existingFavicon) {
+        existingFavicon.remove();
+      }
+
+      const newFavicon = document.createElement('link');
+      newFavicon.id = 'favicon';
+      newFavicon.rel = 'icon';
+      newFavicon.type = 'image/png';
+      newFavicon.href = faviconURL;
+
+      document.head.appendChild(newFavicon);
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
+    updateFavicon();
+  </script>
+</head>
+
+<body data-spy="scroll" data-target=".primary-nav">
+
+  <!-- Preloader -->
+  <div id="at-preloader">
+    <div class='at-preloader-dots'>
+      <div class='at-dot'></div>
+      <div class='at-dot'></div>
+      <div class='at-dot'></div>
+      <div class='at-dot'></div>
+      <div class='at-dot'></div>
+    </div>
+  </div>
+
+  <!-- Start Site Header -->
+  <header class="site-header">
+    <div class="container header-wrap">
+      <div class="site-branding">
+        <!-- For Image Logo -->
+        <a href="index.html" class="custom-logo-link">
+          <img id="custom-logo" src="./assets/img/logo.png" alt="" class="custom-logo">
+        </a>
+      </div>
+      <nav class="primary-nav">
+        <ul class="primary-nav-list">
+          <li class="menu-item"><a href="#at-hero-slider" class="nav-link">INICIO</a></li>
+          <li class="menu-item"><a href="#about" class="nav-link">SOBRE NOSOTROS</a></li>
+          <li class="menu-item"><a href="#services" class="nav-link">SERVICIOS</a></li>
+          <li class="menu-item"><a href="#team" class="nav-link">TRATAMIENTOS</a></li>
+          <li class="menu-item"><a href="#gallrey" class="nav-link">GALERIA</a></li>
+          <li class="menu-item"><a href="#testimonial" class="nav-link">DONDE ESTAMOS</a></li>
+          <li class="menu-item"><a href="#contact" class="nav-link">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- End Site Header -->
+
+  <div class="at-cotent">
+
+    <!-- Start Hero Slider -->
+    <div id="at-hero-slider" class="carousel vert slide" data-ride="carousel">
+      <div class="at-slider-control">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#at-hero-slider" data-slide-to="0" class="active"></li>
+          <li data-target="#at-hero-slider" data-slide-to="1"></li>
+          <li data-target="#at-hero-slider" data-slide-to="2"></li>
+        </ul>
+        <!-- Left and right controls -->
+        <div class="carousel-navigation">
+          <a class="carousel-control-prev" href="#at-hero-slider" data-slide="prev">
+            <i class="fa fa-long-arrow-up"></i>
+          </a>
+          <a class="carousel-control-next" href="#at-hero-slider" data-slide="next">
+            <i class="fa fa-long-arrow-down"></i>
+          </a>
+        </div>
+      </div>
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="at-single-slide at-bg" data-src="./assets/img/hero-bg.jpg">
+            <div class="container">
+              <div class="at-slide-text">
+                <div class="at-hero-bar"></div>
+                <h1>MARIA CORNAGO TE DA UN ESTILO PERFECTO</h1>
+                <p>En <strong style="color: #fab502;">Peluquería Maria Cornago</strong>, transformamos tu estilo con devoción y dedicación. <br>
+                Descubre la belleza que llevas dentro gracias a nuestra pasión por el estilismo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="at-single-slide at-bg" data-src="./assets/img/hero-bg1.jpg">
+            <div class="container">
+              <div class="at-slide-text">
+                <div class="at-hero-bar"></div>
+                <h1>MARIA CORNAGO TE DA UN ESTILO PERFECTO</h1>
+                <p>En <strong style="color: #fab502;">Peluquería Maria Cornago</strong>, transformamos tu estilo con devoción y dedicación. <br>
+                Descubre la belleza que llevas dentro gracias a nuestra pasión por el estilismo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="at-single-slide at-bg" data-src="./assets/img/hero-bg2.jpg">
+            <div class="container">
+              <div class="at-slide-text">
+                <div class="at-hero-bar"></div>
+                <h1>MARIA CORNAGO TE DA UN ESTILO PERFECTO</h1>
+                <p>En <strong style="color: #fab502;">Peluquería Maria Cornago</strong>, transformamos tu estilo con devoción y dedicación. <br>
+                Descubre la belleza que llevas dentro gracias a nuestra pasión por el estilismo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Hero Slider -->
+
+    <!-- Start Intro Section -->
+    <div class="at-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="at-vartical-center">
+              <div class="at-intro-text">
+                <div class="at-sample-text text-center">
+                    <h2>CAMBIA TU LOOK</h2>
+                    <p>En Peluquería <span style="color: #fab502; font-weight: bold;">María Cornago</span>, cada visita es una experiencia única diseñada para realzar tu estilo y confianza. Ofrecemos cortes de pelo precisos, tintes vibrantes y peinados elegantes que se adaptan a tu personalidad y necesidades. Con atención al detalle y dedicación, transformamos tu look para que refleje lo mejor de ti. Descubre cómo Peluquería María Cornago puede ayudarte a lucir y sentirte espectacular en cada ocasión.</p>
+                </div>
+              </div>
+            </div>
+          </div><!-- .col -->
+          <div class="col-lg-6">
+            <div class="at-vartical-center">
+              <div class="at-intro-img text-center">
+                <img src="./assets/img/about-img.png" alt="About Image">
+              </div>
+            </div>
+          </div><!-- .col -->
+        </div>
+      </div>
+    </div>
+    <!-- End Intro Section -->
+
+    <!-- Start About Section -->
+    <section class="at-about-wrap at-gray-bg" id="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="at-about-img at-bg" data-src="./assets/img/about-img1.jpg"></div>
+          </div><!-- .col -->
+          <div class="col-lg-7">
+            <div class="at-about-text">
+              <div class="at-sample-text">
+                <h2>SOBRE MARIA CORNAGO</h2>
+                <p>Con años de experiencia en el mundo de la peluquería, María Cornago ha perfeccionado el arte de realzar la belleza natural de cada cliente. Su dedicación y pasión por el estilismo se reflejan en cada detalle, creando resultados excepcionales que inspiran confianza y estilo.</p>
+              </div>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="at-icon-box">
+                    <div class="at-icon-img">
+                      <img src="./assets/img/icon01.png" alt="">
+                    </div>
+                    <h3>Corte de Pelo</h3>
+                    <p>Nos especializamos en cortes de pelo modernos y personalizados que destacan tu estilo único.</p>
+                  </div>
+                </div><!-- .col -->
+                <div class="col-sm-6">
+                  <div class="at-icon-box">
+                    <div class="at-icon-img">
+                      <img src="./assets/img/icon02.png" alt="">
+                    </div>
+                    <h3>Color de Cabello</h3>
+                    <p>Ofrecemos colores personalizados que destacan tu estilo y personalidad.</p>
+                  </div>
+                </div><!-- .col -->
+                <div class="col-sm-6">
+                  <div class="at-icon-box">
+                    <div class="at-icon-img">
+                      <img src="./assets/img/icon03.png" alt="">
+                    </div>
+                    <h3>Tratamiento Capilar</h3>
+                    <p>Ofrecemos tratamientos capilares personalizados para revitalizar y fortalecer tu cabello, devolviéndole su brillo y salud natural.</p>
+                  </div>
+                </div><!-- .col -->
+                <div class="col-sm-6">
+                  <div class="at-icon-box">
+                    <div class="at-icon-img">
+                      <img src="./assets/img/icon04.png" alt="">
+                    </div>
+                    <h3>Peinados</h3>
+                    <p>Diseñamos peinados exclusivos para cada ocasión, desde eventos formales hasta looks casuales, destacando siempre tu personalidad.</p>
+                  </div>
+                </div><!-- .col -->
+              </div>
+            </div>
+          </div><!-- .col -->
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Start Service Section -->
+    <section class="at-service-wrap at-section" id="services">
+      <div class="container">
+        <div class="at-section-heading text-center">
+          <h2>SERVICIOS</h2>
+        </div>
+      </div>
+      <div class="container">
+        <div class="owl-carousel at-service-carousel at-service-carousel1">
+          <div class="at-service-in">
+            <div class="at-single-service text-center">
+              <img src="./assets/img/service01.jpg" alt="">
+              <div class="at-service-name">Peinado</div>
+              <div class="at-service-hover">
+                <h2>Peinado</h2>
+                <p>Peinados increíbles</p>
+              </div>
+            </div>
+            <div class="at-single-service text-center">
+              <img src="./assets/img/service04.jpg" alt="">
+              <div class="at-service-name">Corte de pelo</div>
+              <div class="at-service-hover">
+                <h2>Corte de pelo</h2>
+                <p>Niño/Señora/Caballero</p>
+              </div>
+            </div>
+          </div><!-- .at-service-in -->
+          <div class="at-service-in">
+            <div class="at-single-service text-center">
+              <img src="./assets/img/service02.jpg" alt="">
+              <div class="at-service-name">Tintes</div>
+              <div class="at-service-hover">
+                <h2>Tintes</h2>
+                <p>Transforma tu estilo</p>
+              </div>
+            </div>
+            <div class="at-single-service text-center">
+              <img src="./assets/img/service05.jpg" alt="">
+              <div class="at-service-name">Mechas</div>
+              <div class="at-service-hover">
+                <h2>Mechas</h2>
+                <p>Mechas con gorro</p>
+              </div>
+            </div>
+          </div>
+          <div class="at-service-in">
+            <div class="at-single-service text-center">
+              <img src="./assets/img/service03.jpg" alt="">
+              <div class="at-service-name">Plata</div>
+              <div class="at-service-hover">
+                <h2>Plata</h2>
+                <p>Balayage/Babylighs/Californianas</p>
+              </div>
+            </div>
+            <div class="at-single-service text-center">
+              <img src="./assets/img/service06.jpg" alt="">
+              <div class="at-service-name">Tratamiento capilar</div>
+              <div class="at-service-hover">
+                <h2>Tratamiento capilar</h2>
+                <p>Anticaída/Acondicionador/Botox</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Service Section -->
+
+    <!-- Start Time Section -->
+    <section class="at-time-wrap at-section at-bg at-parallax" data-src="./assets/img/open-bg.jpg">
+      <div class="at-time-overlay"></div>
+      <div class="container">
+        <div class="at-section-heading at-color-white text-center">
+          <h2>NUESTRO HORARIO:</h2>
+          <p>Abierto 6 días a la semana</p>
+        </div>
+      </div>
+      <div class="at-time">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-2 col-md-4 col-6">
+              <div class="at-single-time">
+                <h3>LUNES</h3>
+                <p>9.00 - 16.30</p>
+              </div>
+            </div><!-- .col -->
+            <div class="col-xl-2 col-md-4 col-6">
+              <div class="at-single-time">
+                <h3>MARTES</h3>
+                <p>9.00 - 16.30</p>
+              </div>
+            </div><!-- .col -->
+            <div class="col-xl-2 col-md-4 col-6">
+              <div class="at-single-time">
+                <h3>MIERCOLES</h3>
+                <p>9.00 - 13.30</p>
+              </div>
+            </div><!-- .col -->
+            <div class="col-xl-2 col-md-4 col-6">
+              <div class="at-single-time">
+                <h3>JUEVES</h3>
+                <p>9.00 - 19.00</p>
+              </div>
+            </div><!-- .col -->
+            <div class="col-xl-2 col-md-4 col-6">
+              <div class="at-single-time">
+                <h3>VIERNES</h3>
+                <p>9.00 - 19.00</p>
+              </div>
+            </div><!-- .col -->
+            <div class="col-xl-2 col-md-4 col-6">
+              <div class="at-single-time">
+                <h3>SABADO</h3>
+                <p>9.00 - 13.00</p>
+              </div>
+            </div><!-- .col -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Time Section -->
+
+    <!-- Start Tratamientos Section -->
+    <section class="at-team-wrap at-section" id="team">
+      <div class="container">
+        <div class="at-section-heading text-center">
+          <h2>TRATAMIENTOS CAPILARES</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <div class="at-team-member text-center">
+                <div class="at-team-member-img">
+                  <img src="./assets/img/trata01.jpg" alt="">
+                  <div class="at-team-social">
+                    <div class="at-service-hover">
+                      <h2>Tassel Hyaluronic</h2>
+                      <p>Tratamiento botox para cabello</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="at-member-meta">
+                  <h3>TASSEL</h3>
+                  <span>Hyaluronic</span>
+                </div>
+              </div>
+            </div><!-- .col -->
+            <div class="col-lg-3 col-sm-6">
+              <div class="at-team-member text-center">
+                <div class="at-team-member-img">
+                  <img src="./assets/img/trata02.jpg" alt="">
+                  <div class="at-team-social">
+                    <div class="at-service-hover">
+                      <h2>Salerm 21</h2>
+                      <p>Tratamiento hidratante para cabello</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="at-member-meta">
+                  <h3>SALERM 21</h3>
+                  <span>Silk Protein</span>
+                </div>
+              </div>
+            </div><!-- .col -->
+            <div class="col-lg-3 col-sm-6">
+              <div class="at-team-member text-center">
+                <div class="at-team-member-img">
+                  <img src="./assets/img/trata03.jpg" alt="">
+                  <div class="at-team-social">
+                    <div class="at-service-hover">
+                      <h2>Hairlab Salerm</h2>
+                      <p>Tratamiento anticaída completo</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="at-member-meta">
+                  <h3>HAIRLAB SALERM</h3>
+                  <span>Vegetable Placenta</span>
+                </div>
+              </div>
+            </div><!-- .col -->
+            <div class="col-lg-3 col-sm-6">
+              <div class="at-team-member text-center">
+                <div class="at-team-member-img">
+                  <img src="./assets/img/member04.jpg" alt="">
+                  <div class="at-team-social">
+                    <div class="at-service-hover">
+                      <h2>Hairlab Salerm</h2>
+                      <p>Tratamiento anticaída completo</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="at-member-meta">
+                  <h3>HAIRLAB SALERM</h3>
+                  <span>Vegetable Placenta</span>
+                </div>
+              </div>
+            </div><!-- .col -->
+          </div>
+        </div>
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <div class="owl-carousel at-testimonials">
+              <div class="at-testimonial">
+                <div class="at-testimonial-img"><img src="./assets/img/trata04.jpg" alt=""></div>
+                <div class="at-testimonial-text">
+                    <blockquote>Bio Plastia de la marca Biokera Natura es un tratamiento innovador diseñado para restaurar y fortalecer el cabello dañado. 
+                      Este tratamiento utiliza ingredientes naturales para proporcionar hidratación profunda, reducir el encrespamiento y mejorar la 
+                      elasticidad del cabello, dejándolo suave, brillante y saludable.</blockquote>
+                  <div class="at-testimonial-meta">
+                    <h3>Bio Plastia</h3>
+                    <span>Biokera Natura</span>
+                  </div>
+                </div>
+              </div><!-- .at-testimonial -->
+              <div class="at-testimonial">
+                <div class="at-testimonial-img"><img src="./assets/img/trata04.jpg" alt=""></div>
+                <div class="at-testimonial-text">
+                  <blockquote>Beatae mon olavitae dicta sunt explicabo experience, sed ut perspiciatis unde voluptatem alovan
+                    accusantium doloremque laudantium, totam rem aperiam, eaque loipsa quae ab illo inventore veritatis et
+                    quasi architecto omnis iste natus error sit.</blockquote>
+                  <div class="at-testimonial-meta">
+                    <h3>Lili Poker</h3>
+                    <span>Omni Group LTD</span>
+                  </div>
+                </div>
+              </div><!-- .at-testimonial -->
+              <div class="at-testimonial">
+                <div class="at-testimonial-img"><img src="./assets/img/trata04.jpg" alt=""></div>
+                <div class="at-testimonial-text">
+                  <blockquote>Totam rem aperiam, eaque loipsa quae ab illo inventore veritatis et quasi architecto beatae mon
+                    olavitae dicta sunt explicabo experience, Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                    alovan accusantium doloremque laudantium.</blockquote>
+                  <div class="at-testimonial-meta">
+                    <h3>Jhon Doe</h3>
+                    <span>Omni Group LTD</span>
+                  </div>
+                </div>
+              </div><!-- .at-testimonial -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Team Section -->
+
+    <!-- Start Gallery Section -->
+    <section class="at-gallery-wrap at-section" id="gallrey">
+      <div class="container">
+        <div class="at-section-heading text-center">
+          <h2>GALERIA</h2>
+        </div>
+      </div>
+      <div class="at-gallery lightgallery">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="owl-carousel at-gallery-carousel">
+              <div class="at-gallery-slider">
+                <div class="at-single-gallery at-big at-bg" data-src="./assets/img/gal01.jpg">
+                  <a href="./assets/img/gal01.jpg" class="at-gallery-link lightbox-item"></a>
+                  <div class="at-plus"></div>
+                </div>
+              </div><!-- .at-gallery-slider -->
+              <div class="at-gallery-slider">
+                <div class="at-single-gallery at-big at-bg" data-src="./assets/img/gal011.jpg">
+                  <a href="./assets/img/gal011.jpg" class="at-gallery-link lightbox-item"></a>
+                  <div class="at-plus"></div>
+                </div>
+              </div><!-- .at-gallery-slider -->
+              <div class="at-gallery-slider">
+                <div class="at-single-gallery at-big at-bg" data-src="./assets/img/gal0111.jpg">
+                  <a href="./assets/img/gal0111.jpg" class="at-gallery-link lightbox-item"></a>
+                  <div class="at-plus"></div>
+                </div>
+              </div><!-- .at-gallery-slider -->
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="at-single-gallery at-small at-bg" data-src="./assets/img/gal02.jpg">
+              <a href="./assets/img/gal02.jpg" class="at-gallery-link lightbox-item"></a>
+              <div class="at-plus"></div>
+            </div>
+            <div class="at-single-gallery at-small at-bg" data-src="./assets/img/gal03.jpg">
+              <a href="./assets/img/gal03.jpg" class="at-gallery-link lightbox-item"></a>
+              <div class="at-plus"></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="at-single-gallery at-small at-bg" data-src="./assets/img/gal04.jpg">
+              <a href="./assets/img/gal04.jpg" class="at-gallery-link lightbox-item"></a>
+              <div class="at-plus"></div>
+            </div>
+            <div class="at-single-gallery at-small at-bg" data-src="./assets/img/gal05.jpg">
+              <a href="./assets/img/gal05.jpg" class="at-gallery-link lightbox-item"></a>
+              <div class="at-plus"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Gallery Section -->
+
+    <!-- Start Testimonial Section -->
+    <section class="at-testimonial-wrap at-section at-gray-bg" id="testimonial">
+      <div class="container">
+        <div class="at-section-heading text-center">
+          <h2>DONDE ESTAMOS</h2>
+            <p>Nuestras instalaciones están situadas en: <span class="text-success font-weight-bold">C/Aquiles Cuadra, Bajo 1, Tudela (Navarra)</span></p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2962.3760178641687!2d-1.601254453352756!3d42.05655896035971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5a4f4d8ff4491b%3A0x5680ea674f0806c4!2sC.%20Aquiles%20Cuadra%2C%201-3%2C%2031500%20Tudela%2C%20Navarra!5e0!3m2!1ses!2ses!4v1746197597135!5m2!1ses!2ses"
+              width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>          
+      </div>
+    </section>
+    <!-- End Testimonial Section -->
+
+    <!-- Start Contact Section -->
+    <section class="at-contact-wrap at-section" id="contact">
+      <div class="container">
+        <div class="at-section-heading text-center">
+          <h2>CONTACT US</h2>
+        </div>
+      </div>
+      <form action="./assets/php/mail.php" class="at-contact-form" id="contact-form">
+        <div class="container">
+          <div id="at-alert"></div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="at-form-field">
+                <input type="text" id="name" name="name" required placeholder="Enter Name">
+              </div>
+            </div><!-- .col -->
+            <div class="col-md-6">
+              <div class="at-form-field">
+                <input type="text" id="email" name="email" required placeholder="Enter Email">
+              </div>
+            </div><!-- .col -->
+            <div class="col-md-6">
+              <div class="at-form-field">
+                <input type="text" id="address" name="address" required placeholder="Enter Address">
+              </div>
+            </div><!-- .col -->
+            <div class="col-md-6">
+              <div class="at-form-field">
+                <input type="text" id="phone" name="phone" required placeholder="Mobile No">
+              </div>
+            </div><!-- .col -->
+            <div class="col-lg-12">
+              <div class="at-form-field">
+                <textarea cols="30" rows="10" id="msg" name="msg" required placeholder="Write Your Massage"></textarea>
+              </div>
+            </div><!-- .col -->
+            <div class="col-lg-6 offset-lg-3">
+              <button type="submit" id="submit" name="submit" class="at-btn at-style2 w-100"><span>SEND MESSAGE</span></button>
+            </div>
+          </div>
+        </div>
+      </form><!-- .at-contact-form -->
+    </section>
+    <!-- End Contact Section -->
+  </div><!-- .at-cotent -->
+
+  <!-- Start Site Footer -->
+  <footer class="at-site-footer">
+    <div class="at-bg at-section" data-src="./assets/img/footer-bg.jpg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="at-footer-widget">
+              <div class="at-footer-logo">
+                <img src="./assets/img/footer-logo.png" alt="Trip Line">
+              </div>
+              <ul>
+                <li>1046 Primrose Lane</li>
+                <li>New Glarus, WI 53574</li>
+                <li>Phone : 484-266-5903</li>
+                <li>Email : <a href="#">info@trimline.com</a></li>
+              </ul>
+              <div class="at-footer-social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube-play"></i></a>
+              </div>
+            </div>
+          </div><!-- .col -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="at-footer-widget at-footer-time">
+              <h2 class="at-footer-widget-title">Nuestro horario</h2>
+              <ul>
+                <li>Lun 9.00 - 16.30</li>
+                <li>Mar 9.00 - 16.30</li>
+                <li>Mie 9.00 - 13.30</li>
+                <li>Jue 9.00 - 19.00</li>
+                <li>Vie 9.00 - 19.00</li>
+                <li>Sab 9.00 - 13.00</li>
+                <li>Domingo Cerrado.</li>
+              </ul>
+            </div>
+          </div><!-- .col -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="at-footer-widget at-footer-link">
+              <h2 class="at-footer-widget-title">Quick Link</h2>
+              <ul class="at-footer-link">
+                <li><a href="#at-hero-slider">Inicio</a></li>
+                <li><a href="#about">Sobre nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#team">Tratamientos</a></li>
+                <li><a href="#gallrey">Galeria</a></li>
+                <li><a href="#testimonial">Donde estamos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+              </ul>
+            </div>
+          </div><!-- .col -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="at-footer-widget at-footer-info">
+              <h2 class="at-footer-widget-title">Information</h2>
+              <ul>
+                <li><a href="#">Privecy Policy</a></li>
+                <li><a href="#">Terms of Services</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li>© TrimeLine | All Rights Reserved. 2018</li>
+              </ul>
+            </div>
+          </div><!-- .col -->
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Site Footer -->
+  
+  <!-- Scripts -->
+  <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+  <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/smoothscroll.js"></script>
+  <script src="./assets/js/jQuery.easing.js"></script>
+  <script src="./assets/js/owl.min.js"></script>
+  <script src="./assets/js/parallax.min.js"></script>
+  <script src="./assets/js/lightgallery.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script>
+    const logo = document.getElementById("custom-logo");
+
+    logo.style.transition = "all 0.3s ease";
+
+    // Cambiar la imagen al pasar el ratón por encima
+    logo.addEventListener('mouseover', () => {
+      logo.src = "./assets/img/logo2.png";
+    });
+
+    // Restaurar la imagen original al quitar el ratón
+    logo.addEventListener('mouseout', () => {
+      logo.src = "./assets/img/logo.png";
+    });
+  </script>
+
+</body>
+</html>
