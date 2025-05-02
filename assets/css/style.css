@@ -40,7 +40,6 @@ body {
   font-weight: 400;
   line-height: 1.6em;
   cursor: default;
-/*   cursor: url("../img/cursor.png"), auto; */
 }
 
 h1,
@@ -438,10 +437,6 @@ a:active {
   -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
   transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
-
-/* .site-header:hover{
-  cursor: url("../img/cursor2.png"), auto;
-} */
 
 .header-wrap {
   display: -webkit-box;
@@ -995,10 +990,7 @@ a:active {
   margin-left: 0;
 }
 
-/* #at-hero-slider:hover{
-    cursor: url("../img/cursor2.png"), auto;
-}
- */
+
 /* .at-hero-slider .owl-nav {
   position: absolute;
   top: 50%;
