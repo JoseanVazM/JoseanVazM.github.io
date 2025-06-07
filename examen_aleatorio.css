@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+.cont{
+    z-index: 0;
+    margin-left: 5%;
+    width: 90%;
+    text-align: center;
+}
+.cont1{
+    padding: 20px 30px;
+    margin-top: 30px;
+    margin-left: 5%;
+    width: 90%;
+    background-color: rgb(193, 202, 209);
+}
+
+.cont2{
+    margin-top: -15px;
+}
+
+.rsp1{
+    width: 80%;
+}
+
+.btn{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    font-family:Verdana,Helvetica;
+    font-size: 0.875rem;
+    font-weight:bold;
+    color:white;
+    border: none; /* border: 0.5px solid black; */
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+#generar{
+    float: right;
+/*     margin-left: 75%; */
+}
+
+.wordart {
+    display: inline-block;
+    padding: 0px;
+    /* margin-left: 22%; */
+    margin-top: -35px;
+    margin-bottom: 2px;
+    font-size: 2.188rem;
+}
+.style-fifteen {
+    .wordart {
+        transform: perspective(200px) rotateX(30deg) scaleY(1);
+        .preview {
+            font-weight: 1000;
+            color: transparent;
+            background: linear-gradient(#fbff00, #d60000);
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke: 1px #b2b2b2;
+            -webkit-background-clip: text;
+            background-clip: text;
+            letter-spacing: 0.1vw;
+            &::before {
+                color: #ca8383;
+                -webkit-text-fill-color: #ca8383;
+                -webkit-text-stroke: transparent;
+                transform: perspective(250px) translateY(-0.643em) rotateX(70deg) scale(1) translateZ(-1em);
+            }
+        }
+    }
+}
+
+p{
+    color: black;
+    font-family:Verdana,Helvetica;
+    font-size: 1.125rem;
+    font-weight:bold;
+}
+
+#correctas{
+    color: red;
+    font-size: 1.875rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.lbl{
+    color: black;
+    font-family:Verdana,Helvetica;
+    font-size: 0.875rem;
+}
+.valid {
+    color: green;
+    font-family:Verdana,Helvetica;
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.invalid {
+    color: red;
+    font-family:Verdana,Helvetica;
+    font-size: 0.875rem;
+    font-weight: bold;
+}
+
+.check1{
+    width: 40px;
+    height: 40px;
+    float: right;
+    /* margin-left: 610px; */
+    margin-top: -55px;
+}
+
+.check{
+    margin-top: -2px;
+    margin-left: 2px;
+    font-size: 1.875rem;
+}
+
+.check:before{
+    color: green;
+    content: "";
+}
+
+.checkOK{
+    margin-top: -2px;
+    margin-left: 2px;
+    font-size: 1.875rem;
+}
+
+.checkOK:before{
+    color: green;
+    content: "✓";
+}
+
+.checkNoK{
+    margin-top: -2px;
+    margin-left: 2px;
+    font-size: 1.875rem;
+}
+
+.checkNoK:before{
+    color: red;
+    content: "X";
+}
