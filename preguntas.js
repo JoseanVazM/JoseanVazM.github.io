@@ -151,8 +151,8 @@ const preguntas = [
     },
     {
         pregunta: "El papel del educador en el periodo de adaptación es:",
-        resp_correcta: "Debe observar qué conductas inadaptadas tiene el niño y reforzarlas.",
-        resp_inco1: "Respetuoso con los sentimientos del niño y tranquilizador.",
+        resp_correcta: "Respetuoso con los sentimientos del niño y tranquilizador.",
+        resp_inco1: "Debe observar qué conductas inadaptadas tiene el niño y reforzarlas.",
         resp_inco2: "No intervenir en ningún caso."
     },
     {
