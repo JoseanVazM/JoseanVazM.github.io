@@ -743,9 +743,9 @@ const preguntas = [
     },
     {
     pregunta: "Generalmente, la primera forma de desplazamiento que suele aparecer en el desarrollo motor infantil es:",
-    resp_correcta: "Reptando.",
+    resp_correcta: "Desplazarse rodando.",
     resp_inco1: "Gateando.",
-    resp_inco2: "Desplazarse rodando."
+    resp_inco2: "Reptando."
     },
     {
     pregunta: "En la relación educador/a-niño/a:",
